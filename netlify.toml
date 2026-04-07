@@ -1,0 +1,9 @@
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  # When setting this up in Netlify, make sure to add this environment variable
+  # via the Netlify Dashboard with your Render backend URL so the frontend can reach it!
+  # NEXT_PUBLIC_API_URL = "https://crowdshield-m75u.onrender.com"
