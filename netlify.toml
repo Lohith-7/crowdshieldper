@@ -1,7 +1,5 @@
 [build]
   base = "frontend"
-  command = "npm run build"
-  publish = ".next"
 
 [build.environment]
   # When setting this up in Netlify, make sure to add this environment variable
